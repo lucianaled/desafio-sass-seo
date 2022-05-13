@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+nav{
+    grid-area: nav;
+}
+footer{
+    grid-area: footer;
+}
+main{
+    grid-area: main;
+}
+
+header {
+    grid-area: header;
+    min-height: 500px;
+    padding: 48px 24px;
+}
+.imgheader {
+    height: 10px;
+    width: 20px;
+}
+
+header div {
+    max-width: 400px;
+}
+header img {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media screen and (min-width: 768px){    
+}
